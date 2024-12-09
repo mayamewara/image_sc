@@ -42,3 +42,53 @@ INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/main.css H
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/style.css HTTP/1.1" 200 -
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.37:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.37 - - [09/Dec/2024 12:30:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.37 - - [09/Dec/2024 12:30:32] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.37 - - [09/Dec/2024 12:30:32] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.37 - - [09/Dec/2024 12:30:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:192.168.1.37 - - [09/Dec/2024 12:30:46] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.37:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:33:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:33:44] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:33:44] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:33:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:34:03] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.37:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:34:56] "GET /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:34:56] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:34:56] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:34:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:35:10] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.37:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:39:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:39:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:39:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:39:46] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:39:50] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:39:52] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2024 12:39:53] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.37 - - [09/Dec/2024 12:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.37 - - [09/Dec/2024 12:40:02] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.37 - - [09/Dec/2024 12:40:02] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.37 - - [09/Dec/2024 12:40:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.37 - - [09/Dec/2024 12:40:17] "POST /review HTTP/1.1" 200 -
